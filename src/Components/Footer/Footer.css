@@ -1,0 +1,22 @@
+.footer {
+    background: var(--brun);
+    color: var(--creme);
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-socials img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer p {
+    font-size: 14px;
+}

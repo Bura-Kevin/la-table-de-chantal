@@ -1,0 +1,52 @@
+.formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire label {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.formulaire input,
+.formulaire textarea {
+    font: inherit;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #d8cfc6;
+    border-radius: 6px;
+    background: #fff;
+    color: var(--brun);
+}
+
+.formulaire input:focus,
+.formulaire textarea:focus {
+    outline: 2px solid var(--terracotta);
+    border-color: transparent;
+}
+
+.formulaire textarea {
+    resize: vertical;
+}
+
+.formulaire button {
+    align-self: flex-start;
+    font: inherit;
+    font-weight: 700;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    background: var(--terracotta);
+    color: #fff;
+    cursor: pointer;
+}
+
+.formulaire button:hover {
+    background: #933f1f;
+}
+
+.formulaire-merci {
+    margin-top: 15px;
+    color: #2e7d32;
+    font-weight: 700;
+}

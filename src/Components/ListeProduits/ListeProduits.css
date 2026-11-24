@@ -1,0 +1,16 @@
+.liste-produits {
+    margin-bottom: 50px;
+}
+
+.liste-produits h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--terracotta);
+}
+
+.liste-produits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 25px;
+}

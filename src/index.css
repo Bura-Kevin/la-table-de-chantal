@@ -1,0 +1,60 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --creme: #faf6f0;
+  --brun: #2b211c;
+  --terracotta: #b5542d;
+  --gris: #6b5f57;
+}
+
+body {
+  font-family: 'Lobster Two', cursive;
+  background: var(--creme);
+  color: var(--brun);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.page-title {
+  font-size: clamp(34px, 5vw, 50px);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.page-intro {
+  text-align: center;
+  color: var(--gris);
+  margin-bottom: 40px;
+}
